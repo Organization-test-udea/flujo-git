@@ -46,3 +46,14 @@ git add *.html/js			            -- Adds all files with that format to the stagin
 git add .				            -- Adds all files in the selected folder to the staging area
 git add -p <file>				    -- Allows us to see the changes to be added in the staging area and asks us to acccept or not
 git status				            -- Shows the status of the staging area
+
+## Summary
+1. "git remote add <name> <url>" to add the original remote repositor	 
+2. "git fetch <remote name>" to download objects and refs from the original repository
+3. "git pull original-repo branch" to get all the data in our personal repository
+4. "git push origin master" to syncrhonize with github
+5. "git checkout -b <branch name> to create a new branch where the changes will be done
+6. Make changes and commit them
+7. "git push origin <branch name>" to add the changes to github 
+8. Make a pull request
+9. When done, delete the branch with "git branch -D <branch name>" to local repo and "git push origin --delete <branch name>" to remote repo
