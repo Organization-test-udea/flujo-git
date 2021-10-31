@@ -39,3 +39,10 @@ git log --stat					    -- Shows aditional information about changes in the commi
 git show <commit id>				    -- Shows information about the commited indicated
 git diff <filename>				    -- Shows changes not staged in the file
 git diff --staged <filename>			    -- Shows changes staged in the file but not commited
+
+## GIT STAGING AREA commands
+git add <file>				            -- Adds a specific file to the staging area
+git add *.html/js			            -- Adds all files with that format to the staging area
+git add .				            -- Adds all files in the selected folder to the staging area
+git add -p <file>				    -- Allows us to see the changes to be added in the staging area and asks us to acccept or not
+git status				            -- Shows the status of the staging area
