@@ -13,7 +13,7 @@ Se recomienda crear una organizacion a partir de la cual se generen los forks ha
 6. git remote remove <name>			    -- Removes the connection with the remote repository
 7. git fetch <remote name>                             -- Download objects and refs from another repository
 
-## Comandos unbdoing stuff
+## Comandos undoing stuff
 git rm <file>			           	    -- Deletes the file from the git directory
 git rm --cached <file>			            -- Stops tracking a file
 git mv <filename> <newname>			    -- Changes the name of the file and even could change the location of the file 
@@ -23,3 +23,11 @@ git checkout 'branch'			            -- Switches the current branch
 git reset HEAD <filename>			    -- Unstages the changes of the file
 git reset -p HEAD <filename>			    -- Unstages the changes of the file showing the changes that will be unstaged
 git revert HEAD					    -- Creates a commit with the inverse changes in the last commmit to fix problems
+
+## LINUX USEFUL COMMANDS
+touch <file>				            -- Creates a new file
+touch .gitignore			            -- File to put the files that we want to ignore in the 'adds'
+echo "something" > file.txt			    -- Creates a file and put that "something" inside it just conserving that line
+echo "something" >> file.txt			    -- Creates a file and append that "something"
+ls -la						    -- Lists all files including hidden ones	
+nano file.txt					    -- Opens hte file in a text editor
