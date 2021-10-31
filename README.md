@@ -31,3 +31,11 @@ echo "something" > file.txt			    -- Creates a file and put that "something" ins
 echo "something" >> file.txt			    -- Creates a file and append that "something"
 ls -la						    -- Lists all files including hidden ones	
 nano file.txt					    -- Opens hte file in a text editor
+
+## GIT STATUS commands
+git log 					    -- Shows the list of all exisiting commits 
+git log -p					    -- Shows the list of all exisiting commits including their patch
+git log --stat					    -- Shows aditional information about changes in the commits like insertions or deletions
+git show <commit id>				    -- Shows information about the commited indicated
+git diff <filename>				    -- Shows changes not staged in the file
+git diff --staged <filename>			    -- Shows changes staged in the file but not commited
